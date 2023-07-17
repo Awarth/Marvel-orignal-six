@@ -24,7 +24,7 @@ function HawkEye() {
         </div>
         <div className="right">
           <div className="rightContent">
-            <h1>Thor</h1>
+            <h1>Hawk Eye</h1>
             <p>
               An expert marksman and fighter, Clint Barton puts his talents to
               good use by working for S.H.I.E.L.D. as a special agent. The
