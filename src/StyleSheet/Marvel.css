@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+.main,.mainIronMan,.mainHulk,.mainBlackwidow,.mainThor,.mainHawkEye{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row ;
+}
+.main{
+    background-color: #94d2dd;
+}
+.left{
+    width: 45%;
+    height: 100%;
+    /* background-color: black; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.avengersLogo{
+    width: 100%;
+    height: 13%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+.avengersLogo>img{
+    width: 15rem;
+    margin: 0 0 0 3vw;
+    opacity: 77%;
+}
+.marvelLogo{
+    width: 100%;
+    height: 87%;
+    /* background-color: crimson; */
+    /* padding: 10em 0 0 30px; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.marvelBackgroundLogo{
+    width: 42vw;
+    height: 25vh;
+    border: solid 8px #ffffff77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 2vw;
+}
+.marvelBackgroundLogo>img{
+    width: 41vw;
+    height: 22vh;
+    opacity: 55%;
+    position: relative;
+}
+.heroImage>img{
+    width: 27rem;
+    height: auto;
+    position: absolute;
+    left: 7rem;
+    top: 5rem;
+}
+.right{
+    width: 55%;
+    height: 100%;
+    /* padding: 0 0 0 3vw; */
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.rightContent{
+    width: 70%;
+    height: 100%;
+    /* background-color: red; */
+}
+.rightContent>h1{
+    font-weight: 600;
+    font-size: 2em;
+    color: #ffffff;
+    padding: 3em 0 0 2em;
+}
+.rightContent>p{
+    padding: 2em 5em 0 4em;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1em;
+}
+/* .rightContent>button{
+    width: 100px;
+    height: 30px;
+    margin: 2em 0 0 5em;
+    border: none ;
+    border-radius: 10px;
+    color: #ffffff90;
+    background-color: rgba(255, 0, 0, 0.534); */
+/* } */
+.rightContent>h2{
+    color: #ffffff;
+    padding: 1em 0  0 2.8em ;
+} 
+.rightContent>ul{
+    color: #ffffff;
+    padding-left: 5em;
+}
+.rightContent>p.indexing{
+    position: absolute;
+    bottom: 20px;
+    font-size: xx-large;
+    right: 20px;
+}
+.sliders{
+    display: flex;
+    flex-direction: column;
+    line-height: 1em;
+}
+.sliders>button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: none;
+    background-color: #ffffff;
+}
+.mainIronMan{
+    background-color: red;
+}
+.mainHulk{
+    background-color: #73804F;
+}
+.mainBlackwidow{
+    background-color: #645957;
+}
+.mainThor{
+    background-color: #223;
+}
+.mainHawkEye{
+    background-color: #7c5fab;
+}
